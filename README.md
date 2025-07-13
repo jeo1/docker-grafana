@@ -5,4 +5,5 @@ TIMEZONE=America/Toronto
 
 # Update
 GRAFANA_CONFIG=<path to grafana config>
+GRAFANA_PORT=<grafana port>
 ```
