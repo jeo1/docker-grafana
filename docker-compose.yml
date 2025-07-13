@@ -5,6 +5,6 @@ services:
     container_name: grafana
     restart: unless-stopped
     ports:
-      - '3000:3000'
+      - "${GRAFANA_PORT}:3000"
     volumes:
       - "${GRAFANA_CONFIG}:/var/lib/grafana"
